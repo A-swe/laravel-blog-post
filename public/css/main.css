@@ -1,0 +1,93 @@
+/* user detail */
+/* .user-detail .card {
+    background-color: #111;
+} */
+.user-detail .card-header {
+    background-image: linear-gradient(#aaa, #aaa);
+    width: auto;
+    height: 200px;
+}
+.user-detail .card-header .img-class {
+    align-items: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 18%;
+}
+
+.user-detail .edit-profile {
+    margin-top: 20%;
+}
+
+/* new post */
+.img-class {
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.post-type {
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.post-head .float-end input {
+    border-radius: 10px;
+}
+.bootbox-close-button.close {
+    border: none !important;
+    font-size: 30px;
+    background-color: #f9fcff;
+}
+.edit-content,
+.edit-content:focus {
+    outline: none;
+    background: none !important;
+}
+
+.posted-time,
+.posted-type {
+    font-size: 12px;
+}
+.user-image,
+.user-image-bg {
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.user-no-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.user-post-name h4{
+    font-size: 16px;
+    color: #fff;
+    margin: 20px;
+}
+.user-image {
+    position: absolute;
+}
+.img-upload {
+    position: relative;
+    top: 40%;
+    width: 20px;
+    background: #aaa;
+    text-align: center;
+    height: auto;
+    opacity: 1;
+}
+
+.img-upload .fa-camera {
+    cursor: pointer !important;
+}
+.img-upload .fa-camera:hover {
+    opacity: 0.3;
+    color: #fff;
+}
+.user-first-name {
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+}
